@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             xmlns:local="clr-namespace:CarPooling.Controls"
+             x:Class="CarPooling.RoutesSelection"
+             >
+    <ListView x:Name="routeLists" RowHeight="270" BackgroundColor="White">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="200" />
+                            <RowDefinition Height="15" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+
+                        <local:CustomMap MapType="Street" 
+                                             HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"
+                                             RouteCoordinates="{Binding RouteCoordinates}"
+                                             HasScrollEnabled="True"
+                                             Grid.Row="0" 
+                                             />
+                        <StackLayout  Grid.Row="1" Orientation="Horizontal">
+                            <Label Text="Nombre de la ruta" />
+                            <Label Text="{Binding Name}" />
+                        </StackLayout>
+
+                        <StackLayout Grid.Row="2" Orientation="Horizontal">
+                            <Button Text="Suscribirse" IsVisible="{Binding IsNotSuscribed}"
+                                    Command="{Binding SubscribeCommand}" 
+                                    ></Button>
+                            <Button Text="Olvidar" 
+                                    IsVisible="{Binding IsSuscribed}"
+                                    Command="{Binding UnsubscribeCommand}"
+                                    ></Button>
+                        </StackLayout>
+                    </Grid>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>

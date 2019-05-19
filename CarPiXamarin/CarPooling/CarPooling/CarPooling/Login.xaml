@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CarPooling.Login">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Usuario"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Entry x:Name="txtUser" Placeholder="Usuario"></Entry>
+
+            <Label Text="Password"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Entry x:Name="txtPassword" Placeholder="Password"></Entry>
+
+            <Button Clicked="Button_Clicked" Text="Ingresar"></Button>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,7 @@
+{
+    "BaseApiUrl": "http://192.168.1.54",
+    "Authentication": {
+        "User": "my_username",
+        "Password": "my_password"
+    }
+}

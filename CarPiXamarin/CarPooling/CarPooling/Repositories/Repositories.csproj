@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ServiceStack.HttpClient.Core" Version="5.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\CarPooling.Configuration\CarPooling.Configuration.csproj" />
+    <ProjectReference Include="..\..\CarPooling.DTOs\CarPooling.DTOs.csproj" />
+  </ItemGroup>
+
+</Project>

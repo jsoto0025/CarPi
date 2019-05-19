@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarPooling.Android", "CarPooling\CarPooling.Android\CarPooling.Android.csproj", "{F34E7DA9-D7E8-4212-81B7-D70E8DD49DBB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarPooling", "CarPooling\CarPooling\CarPooling.csproj", "{E5310960-B143-47AA-B4C1-5471FCAA1346}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositories", "CarPooling\Repositories\Repositories.csproj", "{240050D0-95B5-48CB-8C49-89A6C0D79AFE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarPooling.DTOs", "CarPooling.DTOs\CarPooling.DTOs.csproj", "{372E07C7-33FE-4474-9797-AFAF56E43EA8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarPooling.Configuration", "CarPooling.Configuration\CarPooling.Configuration.csproj", "{E0E40B55-1173-4DB0-8A4B-D0D37B2516B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Diseño", "Diseño", "{A6B54096-5A41-4DE3-B4EF-B810DCB7A4F8}"
+	ProjectSection(SolutionItems) = preProject
+		Diseño\CarPooling-CodeMap.dgml = Diseño\CarPooling-CodeMap.dgml
+		CarPooling-Solution-CodeMap.dgml = CarPooling-Solution-CodeMap.dgml
+		Diseño\CarPooling.Android-CodeMap.dgml = Diseño\CarPooling.Android-CodeMap.dgml
+		Diseño\CarPooling.Configuration-CodeMap.dgml = Diseño\CarPooling.Configuration-CodeMap.dgml
+		Diseño\CarPooling.DTOs-CodeMap.dgml = Diseño\CarPooling.DTOs-CodeMap.dgml
+		Diseño\CarPooling.Repositories-CodeMap.dgml = Diseño\CarPooling.Repositories-CodeMap.dgml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BD59ACC9-031E-48B1-BA7B-6C2FB3B523C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F34E7DA9-D7E8-4212-81B7-D70E8DD49DBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F34E7DA9-D7E8-4212-81B7-D70E8DD49DBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F34E7DA9-D7E8-4212-81B7-D70E8DD49DBB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F34E7DA9-D7E8-4212-81B7-D70E8DD49DBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F34E7DA9-D7E8-4212-81B7-D70E8DD49DBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F34E7DA9-D7E8-4212-81B7-D70E8DD49DBB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E5310960-B143-47AA-B4C1-5471FCAA1346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5310960-B143-47AA-B4C1-5471FCAA1346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5310960-B143-47AA-B4C1-5471FCAA1346}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E5310960-B143-47AA-B4C1-5471FCAA1346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5310960-B143-47AA-B4C1-5471FCAA1346}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5310960-B143-47AA-B4C1-5471FCAA1346}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{240050D0-95B5-48CB-8C49-89A6C0D79AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{240050D0-95B5-48CB-8C49-89A6C0D79AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{240050D0-95B5-48CB-8C49-89A6C0D79AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{240050D0-95B5-48CB-8C49-89A6C0D79AFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{372E07C7-33FE-4474-9797-AFAF56E43EA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{372E07C7-33FE-4474-9797-AFAF56E43EA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{372E07C7-33FE-4474-9797-AFAF56E43EA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{372E07C7-33FE-4474-9797-AFAF56E43EA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0E40B55-1173-4DB0-8A4B-D0D37B2516B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0E40B55-1173-4DB0-8A4B-D0D37B2516B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0E40B55-1173-4DB0-8A4B-D0D37B2516B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0E40B55-1173-4DB0-8A4B-D0D37B2516B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57E832BC-8FA9-406A-B15E-44C222278338}
+	EndGlobalSection
+EndGlobal
