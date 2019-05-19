@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarPi.DataAccess", "DataAccess\CarPi.DataAccess.csproj", "{829D1E76-DF58-4B4E-B3BB-FADB55F5B058}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject", "TestProject\TestProject.csproj", "{A27BAD60-18CE-415C-889E-8139BC0DFFFE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarPi.Web", "CarPi.Web\CarPi.Web.csproj", "{02C0BCE2-37B8-4158-B545-3F21C58174ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarPi.DTOs", "CarPi.DTOs\CarPi.DTOs.csproj", "{491BC9F8-B5A1-434F-AD1D-C79FFDFE5C67}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarPi.Enums", "CarPi.Enums\CarPi.Enums.csproj", "{699C1E65-C41C-44A9-B4FB-16DA83E61382}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarPi.Helpers", "CarPi.Helpers\CarPi.Helpers.csproj", "{FB3EE547-02C4-4CC0-9D80-10A5D157E358}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarPi.Validations", "CarPi.Validations\CarPi.Validations.csproj", "{6EC7393D-510A-4260-BDA2-802616633859}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{829D1E76-DF58-4B4E-B3BB-FADB55F5B058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{829D1E76-DF58-4B4E-B3BB-FADB55F5B058}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{829D1E76-DF58-4B4E-B3BB-FADB55F5B058}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{829D1E76-DF58-4B4E-B3BB-FADB55F5B058}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A27BAD60-18CE-415C-889E-8139BC0DFFFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A27BAD60-18CE-415C-889E-8139BC0DFFFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A27BAD60-18CE-415C-889E-8139BC0DFFFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A27BAD60-18CE-415C-889E-8139BC0DFFFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02C0BCE2-37B8-4158-B545-3F21C58174ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02C0BCE2-37B8-4158-B545-3F21C58174ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02C0BCE2-37B8-4158-B545-3F21C58174ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02C0BCE2-37B8-4158-B545-3F21C58174ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{491BC9F8-B5A1-434F-AD1D-C79FFDFE5C67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{491BC9F8-B5A1-434F-AD1D-C79FFDFE5C67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{491BC9F8-B5A1-434F-AD1D-C79FFDFE5C67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{491BC9F8-B5A1-434F-AD1D-C79FFDFE5C67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{699C1E65-C41C-44A9-B4FB-16DA83E61382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{699C1E65-C41C-44A9-B4FB-16DA83E61382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{699C1E65-C41C-44A9-B4FB-16DA83E61382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{699C1E65-C41C-44A9-B4FB-16DA83E61382}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB3EE547-02C4-4CC0-9D80-10A5D157E358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB3EE547-02C4-4CC0-9D80-10A5D157E358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB3EE547-02C4-4CC0-9D80-10A5D157E358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB3EE547-02C4-4CC0-9D80-10A5D157E358}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EC7393D-510A-4260-BDA2-802616633859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EC7393D-510A-4260-BDA2-802616633859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EC7393D-510A-4260-BDA2-802616633859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EC7393D-510A-4260-BDA2-802616633859}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A009627-F30C-4CF7-AECF-EFC4C91CB273}
+	EndGlobalSection
+EndGlobal

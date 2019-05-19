@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <h1>Welcome to admin page!</h1>
+    <p>Please use any of the links below to get started</p>
+</div>
+<div class="row">
+    <ul>
+        <li><a asp-area="" asp-controller="Account" asp-action="Index">Usuarios</a></li>
+        <li><a asp-area="" asp-controller="RoleByUsers" asp-action="Index">Roles by user</a></li>
+        <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+        <li><a asp-area="" asp-controller="Account" asp-action="Logout" class="logout-link">Logout</a></li>
+    </ul>
+</div>
