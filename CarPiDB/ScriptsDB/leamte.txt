@@ -1,0 +1,4 @@
+#20181108
+#jsoto25@hotmail.com
+
+En esta carpeta van los scripts de base de datos.
